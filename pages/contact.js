@@ -1,8 +1,14 @@
+import Link from 'next/link';
+
+
 function Contact() {
     return (
         <div>
             <h1>Contato</h1>
-            <a href="/">Home</a>
+            <Link href="/">
+                <a>Home</a>
+            </Link>
+            
         </div>
     ) 
 }
