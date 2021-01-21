@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import styles from '../styles.module.css';
 
 
-function Home() {
+export default function Home() {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className = {styles.construction}>
+            <h1>SITE EM CONSTRUÇÃO</h1>
             <Link href="/contact">
                 <a>Contato</a>
             </Link>
@@ -12,5 +13,3 @@ function Home() {
         </div>
     ) 
 }
-
-export default Home
