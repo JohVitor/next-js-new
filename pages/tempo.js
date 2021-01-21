@@ -1,6 +1,6 @@
 function Tempo () {
 
-    const dynamicDate = newDate();
+    const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toGMTString()
 
 
