@@ -1,4 +1,5 @@
-body {
+.construction {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
